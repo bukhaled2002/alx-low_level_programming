@@ -1,7 +1,11 @@
 #include <stdio.h>
-/*this is discription*/
+/*this is discription
+ * asas
+ * asas
+ * sasaas
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
-	return(0);
+	return (0);
 }
