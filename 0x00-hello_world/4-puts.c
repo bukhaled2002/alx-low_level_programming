@@ -1,13 +1,11 @@
 #include <stdio.h>
 /*
- * this is discription
- * asas
- * asas
- * sasaas
-*/
+ * main - A program print output with puts
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-	/*this is for function*/
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+/*puts - dssd*/
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
