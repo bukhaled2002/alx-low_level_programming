@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main - A program print output with puts
- * Return: 0 (Success)
- */
+/**
+ * main - dsdds
+ * Return: 0 when success
+**/
 int main(void)
 {
 /*puts - dssd*/
