@@ -10,10 +10,10 @@ int main(void)
       	/* your code goes there */
       	int lastnum=n%10;
       	if(n>5){
-	     	printf("Last digit of %lu is %d and is greater than 5",n,lastnum);
+	     	printf("Last digit of %lu is %d and is greater than 5\n",n,lastnum);
       	}else if(n==0){
-	     	printf("Last digit of %lu is %d and is zero",n,lastnum);
+	     	printf("Last digit of %lu is %d and is zero\n",n,lastnum);
       	}else{
-	     	printf("Last digit of %lu is %d and is less than 6 and not 0",n,lastnum);
+	     	printf("Last digit of %lu is %d and is less than 6 and not 0\n",n,lastnum);
       	}  return (0);
 }
