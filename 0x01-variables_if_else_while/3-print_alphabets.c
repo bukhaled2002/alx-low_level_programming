@@ -3,10 +3,11 @@ void main(int)
 {
 int i;
 for(i='a';i<='z';i++){
-printf("%s",i);
+putchar(i);
 }
 for(i='A';i<='Z';i++){
-printf("%s\n",i);
+putchar(i);
 }
+putchar('\n');
 return (0);
 }

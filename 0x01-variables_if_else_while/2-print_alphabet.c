@@ -4,7 +4,8 @@ void main(int)
 	int i;
 	for (i='a';i<='z';i++)
 	{
-	putchar("%s\n",i);
+	putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }

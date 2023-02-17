@@ -5,11 +5,11 @@ int i;
 for(i='a';i<='z';i++){
 	if (i == 'q' || i == 'e')
 	{
-		printf("");
+		return ("");
 	}else {
-	printf("%s\n",i);
+		putchar(i);
 	}
 }
-
+putchar('\n');
 return (0);
 }
