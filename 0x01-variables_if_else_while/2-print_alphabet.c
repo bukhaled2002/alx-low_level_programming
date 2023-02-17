@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main(int)
 {
-	int i;
+	char i;
 	for (i='a';i<='z';i++)
 	{
 	putchar(i);
