@@ -1,4 +1,7 @@
 #include<stdio.h>
+/**
+ * main - this is comment
+ * Return: 0 (Success)  */
 void main(int)
 {
 int i;
