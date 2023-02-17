@@ -1,16 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - this is comment
  * Return: 0 (Success)
  */
-void main(int)
+int main(void)
 {
-int i;
-for(i=0;i<10;i++){
-	putchar(i);
-	}
-putchar('\n');
-}
+char i;
 
+for (i = '0'; i <= '9'; i++)
+	putchar(i);
+
+putchar('\n');
 return (0);
 }
