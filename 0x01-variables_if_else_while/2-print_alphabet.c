@@ -1,15 +1,19 @@
 #include <stdio.h>
 /**
  * main - this is comment
- * Return: 0 (Success)
+ *
+ * Return: Always 0 (success)
+ *
  */
-void main(int)
+int main(void)
+/*int: sasad asds dsaslk*/
 {
 	char i;
-	for (i='a';i<='z';i++)
+
+	for (i = 'a'; i <= 'z'; i++)
 	{
 	putchar(i);
 	}
-	putchar('\n');
-	return (0);
+putchar('\n');
+return (0);
 }
