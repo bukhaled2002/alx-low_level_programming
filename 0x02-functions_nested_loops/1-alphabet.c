@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * main - any description
+ * print_alphabet - any description
  *
  * Return: 0 (Success)
  */
