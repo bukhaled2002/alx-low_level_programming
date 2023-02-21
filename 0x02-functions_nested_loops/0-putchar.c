@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 /**
- * main - any description
+ * _putchar - any description
+ * @c: the char to do thing
+ *
  * Return: 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-return (0);
+	return (write(1,&c,1));
 }
