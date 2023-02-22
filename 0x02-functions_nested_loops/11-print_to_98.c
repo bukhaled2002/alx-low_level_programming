@@ -24,6 +24,6 @@ int i;
 			_putchar(' ');
 		}
 	}
-	_putchar(98 + '0');
+	_putchar(98);
 
 }
