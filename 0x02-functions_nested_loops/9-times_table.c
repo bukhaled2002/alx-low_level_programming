@@ -26,7 +26,7 @@ for (i = 0; i <= 9; i++)
 		}
 		if (j * i < 10)
 			_putchar(j * i + '0');
-		else 
+		else
 		{
 			_putchar(j * i / 10 + '0');
 			_putchar(j * i % 10 + '0');
