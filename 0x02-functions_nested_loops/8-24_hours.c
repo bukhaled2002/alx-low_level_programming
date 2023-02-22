@@ -13,21 +13,11 @@ for (i = 0; i <= 23; i++)
 {
 	for (j= 0; j <= 59; j++)
 	{
-		if (i < 10)
-		{
-			_putchar('0');
-			_putchar(i);
-		}
-		else
-			_putchar(i);
+		_putchar(i < 9 ? 0 + '0' : i / 10 + '0');
+		_putchar(i < 9 ? i + '0' : i % 10 + '0');
 		_putchar(':');
-		if (j < 10)
-		{
-			_putchar('0');
-			_putchar(j + '0');
-		}
-		else
-			_putchar(j + '0');
+		_putchar(j < 9 ? 0 + '0' : i / 10 + '0');
+		_putchar(j < 9 ? j + '0' : j % 10 + '0');
 		_putchar('\n');
 }
 }
