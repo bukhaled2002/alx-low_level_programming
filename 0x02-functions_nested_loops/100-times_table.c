@@ -5,7 +5,7 @@
  * @n: adafffasaafd
  * Return: 1 (Success)
  */
-int print_times_table(int n)
+void print_times_table(int n)
 {
 int i;
 int j;
