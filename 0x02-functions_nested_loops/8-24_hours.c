@@ -20,6 +20,7 @@ for (i = 0; i <= 23; i++)
 		}
 		else
 			_putchar(i);
+		_putchar(':');
 		if (j < 10)
 		{
 			_putchar('0');
