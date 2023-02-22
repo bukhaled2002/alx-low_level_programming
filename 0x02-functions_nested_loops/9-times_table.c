@@ -16,7 +16,7 @@ for (i = 0; i <= 9; i++)
 		if (j != 0)
 		{
 			_putchar(',');
-			if (j*i < 10)
+			if (j * i < 10)
 			{
 				_putchar(' ');
 				_putchar(' ');
