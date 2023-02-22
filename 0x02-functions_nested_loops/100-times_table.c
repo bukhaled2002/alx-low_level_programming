@@ -18,7 +18,7 @@ int product;
 			for (j = 0; j <= n; j++)
 			{
 				product = i * j;
-				_putchar(product);
+				_putchar(product + '0');
 				if (i != n)
 				{
 					_putchar(',');
