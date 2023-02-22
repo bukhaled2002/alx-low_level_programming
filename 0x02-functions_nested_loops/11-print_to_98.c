@@ -23,10 +23,7 @@ int i;
 			_putchar(',');
 			_putchar(' ');
 		}
-		else
-		{
-			_putchar(i + '0');
-		}
 	}
+	_putchar(i + '0');
 
 }
