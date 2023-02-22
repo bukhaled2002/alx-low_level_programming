@@ -26,13 +26,13 @@ for (i = 0; i <= 23; i++)
 		if (j < 10)
 		{
 			_putchar('0');
-			_putchar((char) j);
+			_putchar(j + '0');
 		}
 		else
 		{
-			_putchar((char) j);
+			_putchar(j + '0');
 		}
-		_putchar('\n');
 	}
+		_putchar('\n');
 }
 }
