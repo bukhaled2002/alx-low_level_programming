@@ -16,7 +16,7 @@ for (i = 0; i <= 9; i++)
 		if (j != 0)
 			_putchar(i * j <= 9 ? ' ' : i * j / 10 + '0');
 		else
-			_putchar(i * j <= 9 ? '0' : i * j / 10 + '0');
+			_putchar(i * j <= 9 ? 0 : i * j / 10 + '0');
 	_putchar(i * j <= 9 ? i * j + '0' : i * j % 10 + '0');
 	if (j != 9)
 		_putchar(',');
