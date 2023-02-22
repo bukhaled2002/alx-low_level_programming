@@ -23,11 +23,13 @@ int product;
 				_putchar(product < 100 ? ' ' : product / 100 + '0');
 				_putchar(product < 10 ? ' ' : (product / 10) % 10 + '0');
 				_putchar(product % 10 + '0');
+				_putchar(',');
 				}
 				else if (j == 0)
 					_putchar(product + 0);
 				else if (j == n)
 					_putchar('\n');
+				
 			}
 		}
 	}
