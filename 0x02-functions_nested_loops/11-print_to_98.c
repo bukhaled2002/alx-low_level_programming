@@ -30,7 +30,7 @@ int i;
 			_putchar(' ');
 		}
 	}
-	_putchar(9);
-	_putchar(8);
+	_putchar('9');
+	_putchar('8');
 
 }
