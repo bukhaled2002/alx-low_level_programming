@@ -19,7 +19,13 @@ int i;
 	{
 		if (i != 98)
 		{
+			if(i < 10)
 			_putchar(i + '0');
+			else
+			{
+				_putchar(i / 10 + '0');
+				_putchar(i % 10 + '0');
+			}
 			_putchar(',');
 			_putchar(' ');
 		}
