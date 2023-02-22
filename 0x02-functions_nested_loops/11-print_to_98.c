@@ -39,6 +39,8 @@ int k;
 		}
 		else 
 			_putchar(k + '0');
+		_putchar(',');
+		_putchar(' ');
 }}
 	_putchar('9');
 	_putchar('8');
