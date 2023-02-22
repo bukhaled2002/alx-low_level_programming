@@ -19,7 +19,7 @@ int product;
 			{
 				product = i * j;
 				_putchar(product + 0);
-				if (i != n)
+				if (j != n)
 				{
 					_putchar(',');
 					_putchar(' ');
