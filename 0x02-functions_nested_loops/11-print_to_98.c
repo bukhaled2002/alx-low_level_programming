@@ -8,12 +8,12 @@
 void print_to_98(int n)
 {
 int dif;
+int i;
+
 	if (n > 98)
 		dif = -1;
 	else
 		dif = 1;
-
-	int i;
 
 	for (i = n; i != 98; i += dif)
 	{
