@@ -32,7 +32,7 @@ for (i = 0; i <= 23; i++)
 		{
 			_putchar(j + '0');
 		}
-	}
 		_putchar('\n');
+}
 }
 }
