@@ -27,7 +27,7 @@ while (n != 98)
 		}
 		else
 		{
-			_putchar(i)
+			_putchar(i);
 		}
 	}
 }
