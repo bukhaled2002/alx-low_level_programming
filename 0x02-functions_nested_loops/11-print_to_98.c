@@ -13,8 +13,6 @@ int dif;
 	else
 		dif = 1;
 
-while (n != 98)
-{
 	int i;
 
 	for (i = n; i != 98; i += dif)
@@ -27,8 +25,8 @@ while (n != 98)
 		}
 		else
 		{
-			_putchar(i);
+			_putchar(i + '0');
 		}
 	}
-}
+
 }
