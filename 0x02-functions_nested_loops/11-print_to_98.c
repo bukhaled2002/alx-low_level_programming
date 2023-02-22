@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-int dif
+int dif;
 	if (n > 98)
 		dif = -1;
 	else
