@@ -20,6 +20,5 @@ for (i = 0; i <= 9; i++)
 	_putchar(j == 9 ? 0 : ',');
 	_putchar(j == 9 ? '\n' : ' ');
 	}
-	_putchar('\n');
 }
 }
