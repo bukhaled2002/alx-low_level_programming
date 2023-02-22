@@ -19,7 +19,7 @@ int k;
 	{
 		if (i != 98)
 		{
-			if(i < 0)
+			if (i < 0)
 			{
 				k = i * -1;
 				_putchar('-');
@@ -37,7 +37,7 @@ int k;
 			_putchar(k / 10 + '0');
 			_putchar(k % 10 + '0');
 		}
-		else 
+		else
 			_putchar(k + '0');
 		_putchar(',');
 		_putchar(' ');
