@@ -11,27 +11,22 @@ int j;
 
 for (i = 0; i <= 23; i++)
 {
-	if (i < 10)
+	for (j= 0; j <= 59; j++)
 	{
-		_putchar('0');
-		_putchar(i + '0');
-	}
-	else
-	{
-		_putchar(i + '0');
-	}
-	_putchar(':');
-	for (j = 0; j <= 59; j++)
-	{
+		if (i < 10)
+		{
+			_putchar('0');
+			_putchar(i);
+		}
+		else
+			_putchar(i);
 		if (j < 10)
 		{
 			_putchar('0');
 			_putchar(j + '0');
 		}
 		else
-		{
 			_putchar(j + '0');
-		}
 		_putchar('\n');
 }
 }
