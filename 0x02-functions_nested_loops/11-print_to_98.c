@@ -8,7 +8,7 @@ void print_to_98(int n)
 {
 int dif;
 int i;
-
+int k;
 
 	if (n > 98)
 		dif = -1;
@@ -19,35 +19,27 @@ int i;
 	{
 		if (i != 98)
 		{
-			if (i < 100)
+			if(i < 0)
 			{
-			if (i < 10)
-			_putchar(i + '0');
-			else
-			{
-				if (i < 0)
-				{
-					_putchar('-');
-					_putchar(-1 * i / 10 + '0');
-       					_putchar(-1 * i % 10 + '0');
-				}
-				else
-				{
-				_putchar(i / 10 + '0');
-				_putchar(i % 10 + '0');
-			}
-			}
+				k = i * -1;
+				_putchar('-');
 			}
 			else
-			{
-				_putchar(i / 100 + '0');
-				_putchar((i / 10) % 10 + '0');
-				_putchar(i % 10 + '0');
-			}
-			_putchar(',');
-			_putchar(' ');
+				k = i;
+		if (k > 100)
+		{
+			_putchar(k / 100 + '0');
+			_putchar((k / 10) % 10 + '0');
+			_putchar(k % 10 + '0');
 		}
-	}
+		else if (k < 100 && k > 10)
+		{
+			_putchar(k / 10 + '0');
+			_putchar(k % 10 + '0');
+		}
+		else 
+			_putchar(k + '0');
+}}
 	_putchar('9');
 	_putchar('8');
 	_putchar('\n');
