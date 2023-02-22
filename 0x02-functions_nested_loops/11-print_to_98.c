@@ -19,11 +19,11 @@ int i;
 	{
 		if (i != 98)
 		{
-			_putchar(i + 0);
+			_putchar(i + '0');
 			_putchar(',');
 			_putchar(' ');
 		}
 	}
-	_putchar(i + 0);
+	_putchar(98 + '0');
 
 }
