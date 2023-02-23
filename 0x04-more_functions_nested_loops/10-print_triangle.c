@@ -12,7 +12,7 @@ if (n > 0)
 {
 for (j = 0; j < n; j++)
 {
-	for (i = n-1; i >= 0 ; i--)
+	for (i = n - 1; i >= 0 ; i--)
 {
 	if (j >= i)
 	_putchar('#');
