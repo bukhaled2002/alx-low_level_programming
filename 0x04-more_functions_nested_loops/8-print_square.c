@@ -21,4 +21,5 @@ for (i = 0; i < n ; i++)
 else
 	_putchar('\n');
 
+	}
 }
