@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_line - sadds akfasfas madsksa
+ * print_diagonal - sadds akfasfas madsksa
  * @n: sjsdsajskldsadasajkadsjknadsjndsa
  * Return: 1 Success 0 else
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 if (n > 0)
