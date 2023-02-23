@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - sadds akfasfas madsksa
- * @n: sjsdsajskldsadasajkadsjknadsjndsa
+ * @n: sjsdsajskld sadasajkadsjk nadsjndsa
  * Return: 1 Success 0 else
  */
 void print_diagonal(int n)
@@ -14,9 +14,9 @@ if (n > 0)
 	{
 	for (i = 0; i < n - 1; i++)
 		_putchar(' ');
-	_putchar(92);
+	_putchar('\\');
 }
-}
-	_putchar('\n');
 
+	_putchar('\n');
+	}
 }
