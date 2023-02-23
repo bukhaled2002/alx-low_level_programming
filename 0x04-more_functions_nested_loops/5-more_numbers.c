@@ -13,7 +13,7 @@ for (j = 0; i < 10; j++)
 	for (i = 0; i < 14; i++)
 	{
 		_putchar(i < 10 ? i + '0' : i / 10 + '0');
-		if (i > 10)
+		if (i >= 10)
 			_putchar(i % 10 + '0');
 	}
 	_putchar('\n');
