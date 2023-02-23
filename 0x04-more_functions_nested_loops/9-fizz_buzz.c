@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - assdadsadsasdasdads
@@ -19,4 +18,5 @@ int main(void)
 		printf(" ");
 	}
 	printf("\n");
+return (0);
 }
