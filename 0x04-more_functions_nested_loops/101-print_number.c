@@ -7,7 +7,7 @@
  */
 void print_number(int n)
 {
-	int n1;
+	unsigned int n1;
 
 	if (n < 0)
 	{
@@ -16,21 +16,7 @@ void print_number(int n)
 	}
 	else
 		n1 = n;
-	if (n1 / 100000000)
-		_putchar((n1 / 100000000) % 10 + '0');
-	if (n1 > 10000000)
-		_putchar((n1 / 10000000) % 10 + '0');
-	if (n1 > 1000000)
-		_putchar((n1 / 1000000) % 10 + '0');
-	if (n1 > 100000)
-		_putchar((n1 / 100000) % 10 + '0');
-	if (n1 > 10000)
-		_putchar((n1 / 10000) % 10 + '0');
-	if (n1 > 1000)
-		_putchar((n1 / 1000) % 10 + '0');
-	if (n1 > 100)
-		_putchar((n1 / 100) % 10 + '0');
-	if (n1 > 10)
-		_putchar((n1 / 10) % 10 + '0');
-	_putchar(n1 % 10 + '0');
+	if(n1 / 10)
+		print_number(n1 / 10);
+	_putchar((n1 % 10) + '0');
 }
