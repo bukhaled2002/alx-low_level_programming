@@ -5,7 +5,7 @@
  * @n: sjsdsaj assdkjdajk  adsjknadsjndsa
  * Return: 1 Success 0 else
  */
-int print_number(int n)
+void print_number(int n)
 {
 	if (n > 100)
 		_putchar(n / 100 + '0');
