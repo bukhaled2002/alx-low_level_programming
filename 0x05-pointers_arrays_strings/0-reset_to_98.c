@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - aajadffd dskfkddf
- * @*n: adasdjnfsa jfjkdf dsfjdsf
+ * @n: adasdjnfsa jfjkdf dsfjdsf
  */
 void reset_to_98(int *n)
 {
