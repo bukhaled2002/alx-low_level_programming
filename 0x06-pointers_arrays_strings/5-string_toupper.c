@@ -10,6 +10,7 @@ char *string_toupper(char *n)
 	int count = 0;
 	char i = 'a';
 	char j = 'A';
+
 	while (n[count] != '\0')
 	{
 		if (n[count] >= 'a' & n[count] <= 'z')
@@ -19,5 +20,5 @@ char *string_toupper(char *n)
 			count++;
 	}
 	return (n);
-	
+
 }
