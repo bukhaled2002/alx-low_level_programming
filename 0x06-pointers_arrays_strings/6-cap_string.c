@@ -1,30 +1,40 @@
 #include "main.h"
+
 /**
- * cap_string - concatenates two strings nput value
- * @n: input value
+ * cap_string - Capitalizes all words of a string.
+ * @str: The string to be capitalized.
  *
- * Return: void
+ * Return: A pointer to the changed string.
  */
-char *cap_string(char *n)
+char *cap_string(char *str)
 {
-	int sepC;
-	char sep[] = {",",";",".","!","\"","?","(",")","{","}"};
-	int count = 0;
-	char i = 'a';
-	char j = 'A';
-	while (n[count] != '\0')
+	int index = 0;
+
+	while (str[index] != '\0')
 	{
-		if (n[count] >= 'a' && n[count] <= 'z')
-		{
-			n[count] = n[count] - (i - j);
-		}
-		for (sepC = 0; sepC < 10; sepC++)
-		{
-			if (n[count] == sep[sepC])
-				n[count] = '\n';
-		}
-			count++;
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+		    str[index - 1] == '\t' ||
+		    str[index - 1] == '\n' ||
+		    str[index - 1] == ',' ||
+		    str[index - 1] == ';' ||
+		    str[index - 1] == '.' ||
+		    str[index - 1] == '!' ||
+		    str[index - 1] == '?' ||
+		    str[index - 1] == '"' ||
+		    str[index - 1] == '(' ||
+		    str[index - 1] == ')' ||
+		    str[index - 1] == '{' ||
+		    str[index - 1] == '}' ||
+		    index == 0)
+			str[index] -= 32;
+
+		index++;
 	}
-	return (n);
-	
+
+	return (str);
 }
+
+i
