@@ -14,7 +14,7 @@ char *cap_string(char *n)
 	char j = 'A';
 	while (n[count] != '\0')
 	{
-		if (n[count] >= 'a' & n[count] <= 'z')
+		if (n[count] >= 'a' && n[count] <= 'z')
 		{
 			n[count] = n[count] - (i - j);
 		}
