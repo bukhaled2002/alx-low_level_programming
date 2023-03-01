@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _strncpy - concatenates two strings
  * @dest: input value
