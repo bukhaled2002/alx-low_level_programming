@@ -24,14 +24,11 @@ int is_palindrome(char *s)
  */
 int _strlen(char *s)
 {
-	int count = 0;
-
-	if (*s != '\0')
+	if (*s == '\0')
 	{
-		count++;
-		count += _strlen(s + 1);
+		return (0);
 	}
-	return (count);
+		return (1 + _strlen(s + 1));
 }
 
 /**
