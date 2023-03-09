@@ -26,10 +26,10 @@ int _strlen(char *s)
 {
 	int count = 0;
 
-	while (*s != '\0')
+	if (*s != '\0')
 	{
-		s++;
 		count++;
+		count += _strlen(s+1);
 	}
 	return (count);
 }
