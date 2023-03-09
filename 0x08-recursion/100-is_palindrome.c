@@ -29,7 +29,7 @@ int _strlen(char *s)
 	if (*s != '\0')
 	{
 		count++;
-		count += _strlen(s+1);
+		count += _strlen(s + 1);
 	}
 	return (count);
 }
