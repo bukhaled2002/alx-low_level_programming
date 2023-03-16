@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <stddef.h>
 #include "main.h"
 /**
  * string_nconcat - allocates memory using malloc
@@ -11,7 +12,8 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, j, sum;
+	unsigned int i, j, sum;
+	char *s;
 
 	i = 0;
 	j = 0;
@@ -25,24 +27,24 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		j++;
 	if (n > i)
 		n = i;
-	char *ptr = malloc(sizeof(int) * (j + n + 1));
+	s = malloc(sizeof(char) * (j + n + 1));
 
 	sum = j + n;
-	if (!(ptr == NULL))
+	if (!(s == NULL))
 	{
 		i = j = 0;
 		while (s1[i] != '\0')
 		{
-			ptr[i] = s1[i];
+			s[i] = s1[i];
 			i++;
 		}
 		while (i != sum)
 		{
-			ptr[i] = s2[j];
+			s[i] = s2[j];
 			i++;
 			j++;
 		}
-		ptr[i] = '\0';
+		s[i] = '\0';
 	}
-	return (ptr);
+	return (s);
 }
