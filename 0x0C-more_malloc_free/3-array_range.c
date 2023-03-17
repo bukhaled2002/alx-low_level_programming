@@ -3,20 +3,25 @@
 #include <stddef.h>
 #include "main.h"
 /**
- * _calloc - allocates memory using malloc
- * @mmemb: number of bytes to allocate
- * @size: sds dsdsahdshds dsds dd s sddsdf jkdf
+ * array_range - allocates memory using malloc
+ * @min: number of bytes to allocate
+ * @max: sds dsdsahdshds dsds dd s sddsdf jkdf
  *
  * Return: a pointer to the allocated memory
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+int *array_range(int min, int max)
 {
-	void *s;
+	int *s;
+	int i, k = 0;
 
-	if (size == 0 || nmemb == 0)
+	int size = max - min + 1;
+	if (min > max)
 		return (NULL);
-	s = malloc(nmemb * size);
-	if (s == NULL)
-		return (NULL);
+	s = malloc(size * sizeof(int));
+	for (i = min; i <= max; i++)
+	{
+		s[k] = i;
+		k++;
+	}
 	return (s);
 }
