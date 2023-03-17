@@ -4,7 +4,7 @@
 #include "main.h"
 /**
  * _calloc - allocates memory using malloc
- * @mmemb: number of bytes to allocate
+ * @nmemb: number of bytes to allocate
  * @size: sds dsdsahdshds dsds dd s sddsdf jkdf
  *
  * Return: a pointer to the allocated memory
