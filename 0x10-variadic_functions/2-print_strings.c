@@ -8,7 +8,7 @@
  * @n: The number of integers pasd ads sed to the function.
  * @...: A variableds  strings of numbers tsdsdo be printed.
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list string;
 	unsigned int i;
