@@ -14,6 +14,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	
 	while(ptr != NULL)
 	{
+		free(ptr->str);
 		free(ptr);
 		ptr = ptr->next;
 	}
