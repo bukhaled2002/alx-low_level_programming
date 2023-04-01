@@ -21,15 +21,16 @@ new = malloc(sizeof(list_t));
 
 if (!new)
 	return (NULL);
-
+new->next = NULL;
 new->str = strdup(str);
 new->len = len;
-while (ptr != NULL)
+if (ptr == NULL)
+	*head = new;
+else
 {
+while (ptr->next != NULL)
 	ptr = ptr->next;
-}
-new->next = NULL;
 ptr->next = new;
-
+}
 	return (new);
 }
