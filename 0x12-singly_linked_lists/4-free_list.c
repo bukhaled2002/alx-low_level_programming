@@ -12,7 +12,7 @@ list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *ptr = *head;
 	
-	while(ptr)
+	while(ptr != NULL)
 	{
 		free(ptr);
 		ptr = ptr->next;
