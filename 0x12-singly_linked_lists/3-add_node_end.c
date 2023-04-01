@@ -30,5 +30,6 @@ while (ptr != NULL)
 }
 new->next = NULL;
 ptr->next = new;
-	return (ptr);
+
+	return (new);
 }
