@@ -31,6 +31,8 @@ unsigned int binary_to_uint(const char *b)
 	int i, hold, poww = 0;
 	unsigned int result = 0;
 
+	if (!b)
+		return (0);
 	for (i = strlen(b) - 1; i >= 0; i--)
 	{
 		if ((b[i] != '1') & (b[i] != '0'))
